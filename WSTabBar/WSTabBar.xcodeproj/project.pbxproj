@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05507861C400F010027A6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507851C400F010027A6EC /* main.m */; };
+		D05507891C400F010027A6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507881C400F010027A6EC /* AppDelegate.m */; };
+		D05507911C400F010027A6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05507901C400F010027A6EC /* Assets.xcassets */; };
+		D05507941C400F010027A6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05507921C400F010027A6EC /* LaunchScreen.storyboard */; };
+		D055079F1C400F010027A6EC /* WSTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D055079E1C400F010027A6EC /* WSTabBarTests.m */; };
+		D05507AA1C400F010027A6EC /* WSTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507A91C400F010027A6EC /* WSTabBarUITests.m */; };
+		D05507B91C400F870027A6EC /* WSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507B81C400F870027A6EC /* WSTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		D05507BC1C4010510027A6EC /* OneChildViwController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507BB1C4010510027A6EC /* OneChildViwController.m */; settings = {ASSET_TAGS = (); }; };
+		D05507BF1C40106C0027A6EC /* TwoChildViwController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507BE1C40106C0027A6EC /* TwoChildViwController.m */; settings = {ASSET_TAGS = (); }; };
+		D05507C21C4010830027A6EC /* ThreeChildViwController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507C11C4010830027A6EC /* ThreeChildViwController.m */; settings = {ASSET_TAGS = (); }; };
+		D05507C51C4010990027A6EC /* FourChildViwController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507C41C4010990027A6EC /* FourChildViwController.m */; settings = {ASSET_TAGS = (); }; };
+		D05507C81C4010AD0027A6EC /* FiveChildViwController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507C71C4010AD0027A6EC /* FiveChildViwController.m */; settings = {ASSET_TAGS = (); }; };
+		D05507CB1C4010D00027A6EC /* WSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D05507CA1C4010D00027A6EC /* WSTabBar.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D055079B1C400F010027A6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05507791C400F010027A6EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05507801C400F010027A6EC;
+			remoteInfo = WSTabBar;
+		};
+		D05507A61C400F010027A6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05507791C400F010027A6EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05507801C400F010027A6EC;
+			remoteInfo = WSTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D05507811C400F010027A6EC /* WSTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05507851C400F010027A6EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05507871C400F010027A6EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D05507881C400F010027A6EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D05507901C400F010027A6EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05507931C400F010027A6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05507951C400F010027A6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D055079A1C400F010027A6EC /* WSTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D055079E1C400F010027A6EC /* WSTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTabBarTests.m; sourceTree = "<group>"; };
+		D05507A01C400F010027A6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05507A51C400F010027A6EC /* WSTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05507A91C400F010027A6EC /* WSTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTabBarUITests.m; sourceTree = "<group>"; };
+		D05507AB1C400F010027A6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05507B71C400F870027A6EC /* WSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTabBarController.h; sourceTree = "<group>"; };
+		D05507B81C400F870027A6EC /* WSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTabBarController.m; sourceTree = "<group>"; };
+		D05507BA1C4010510027A6EC /* OneChildViwController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneChildViwController.h; sourceTree = "<group>"; };
+		D05507BB1C4010510027A6EC /* OneChildViwController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneChildViwController.m; sourceTree = "<group>"; };
+		D05507BD1C40106C0027A6EC /* TwoChildViwController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoChildViwController.h; sourceTree = "<group>"; };
+		D05507BE1C40106C0027A6EC /* TwoChildViwController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoChildViwController.m; sourceTree = "<group>"; };
+		D05507C01C4010830027A6EC /* ThreeChildViwController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeChildViwController.h; sourceTree = "<group>"; };
+		D05507C11C4010830027A6EC /* ThreeChildViwController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeChildViwController.m; sourceTree = "<group>"; };
+		D05507C31C4010990027A6EC /* FourChildViwController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourChildViwController.h; sourceTree = "<group>"; };
+		D05507C41C4010990027A6EC /* FourChildViwController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourChildViwController.m; sourceTree = "<group>"; };
+		D05507C61C4010AD0027A6EC /* FiveChildViwController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveChildViwController.h; sourceTree = "<group>"; };
+		D05507C71C4010AD0027A6EC /* FiveChildViwController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveChildViwController.m; sourceTree = "<group>"; };
+		D05507C91C4010D00027A6EC /* WSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTabBar.h; sourceTree = "<group>"; };
+		D05507CA1C4010D00027A6EC /* WSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D055077E1C400F010027A6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05507971C400F010027A6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05507A21C400F010027A6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05507781C400F010027A6EC = {
+			isa = PBXGroup;
+			children = (
+				D05507831C400F010027A6EC /* WSTabBar */,
+				D055079D1C400F010027A6EC /* WSTabBarTests */,
+				D05507A81C400F010027A6EC /* WSTabBarUITests */,
+				D05507821C400F010027A6EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05507821C400F010027A6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05507811C400F010027A6EC /* WSTabBar.app */,
+				D055079A1C400F010027A6EC /* WSTabBarTests.xctest */,
+				D05507A51C400F010027A6EC /* WSTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05507831C400F010027A6EC /* WSTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D05507871C400F010027A6EC /* AppDelegate.h */,
+				D05507881C400F010027A6EC /* AppDelegate.m */,
+				D05507B71C400F870027A6EC /* WSTabBarController.h */,
+				D05507B81C400F870027A6EC /* WSTabBarController.m */,
+				D05507BA1C4010510027A6EC /* OneChildViwController.h */,
+				D05507BB1C4010510027A6EC /* OneChildViwController.m */,
+				D05507BD1C40106C0027A6EC /* TwoChildViwController.h */,
+				D05507BE1C40106C0027A6EC /* TwoChildViwController.m */,
+				D05507C01C4010830027A6EC /* ThreeChildViwController.h */,
+				D05507C11C4010830027A6EC /* ThreeChildViwController.m */,
+				D05507C31C4010990027A6EC /* FourChildViwController.h */,
+				D05507C41C4010990027A6EC /* FourChildViwController.m */,
+				D05507C61C4010AD0027A6EC /* FiveChildViwController.h */,
+				D05507C71C4010AD0027A6EC /* FiveChildViwController.m */,
+				D05507C91C4010D00027A6EC /* WSTabBar.h */,
+				D05507CA1C4010D00027A6EC /* WSTabBar.m */,
+				D05507901C400F010027A6EC /* Assets.xcassets */,
+				D05507921C400F010027A6EC /* LaunchScreen.storyboard */,
+				D05507951C400F010027A6EC /* Info.plist */,
+				D05507841C400F010027A6EC /* Supporting Files */,
+			);
+			path = WSTabBar;
+			sourceTree = "<group>";
+		};
+		D05507841C400F010027A6EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05507851C400F010027A6EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D055079D1C400F010027A6EC /* WSTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D055079E1C400F010027A6EC /* WSTabBarTests.m */,
+				D05507A01C400F010027A6EC /* Info.plist */,
+			);
+			path = WSTabBarTests;
+			sourceTree = "<group>";
+		};
+		D05507A81C400F010027A6EC /* WSTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D05507A91C400F010027A6EC /* WSTabBarUITests.m */,
+				D05507AB1C400F010027A6EC /* Info.plist */,
+			);
+			path = WSTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05507801C400F010027A6EC /* WSTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05507AE1C400F010027A6EC /* Build configuration list for PBXNativeTarget "WSTabBar" */;
+			buildPhases = (
+				D055077D1C400F010027A6EC /* Sources */,
+				D055077E1C400F010027A6EC /* Frameworks */,
+				D055077F1C400F010027A6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSTabBar;
+			productName = WSTabBar;
+			productReference = D05507811C400F010027A6EC /* WSTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05507991C400F010027A6EC /* WSTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05507B11C400F010027A6EC /* Build configuration list for PBXNativeTarget "WSTabBarTests" */;
+			buildPhases = (
+				D05507961C400F010027A6EC /* Sources */,
+				D05507971C400F010027A6EC /* Frameworks */,
+				D05507981C400F010027A6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D055079C1C400F010027A6EC /* PBXTargetDependency */,
+			);
+			name = WSTabBarTests;
+			productName = WSTabBarTests;
+			productReference = D055079A1C400F010027A6EC /* WSTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D05507A41C400F010027A6EC /* WSTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05507B41C400F010027A6EC /* Build configuration list for PBXNativeTarget "WSTabBarUITests" */;
+			buildPhases = (
+				D05507A11C400F010027A6EC /* Sources */,
+				D05507A21C400F010027A6EC /* Frameworks */,
+				D05507A31C400F010027A6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05507A71C400F010027A6EC /* PBXTargetDependency */,
+			);
+			name = WSTabBarUITests;
+			productName = WSTabBarUITests;
+			productReference = D05507A51C400F010027A6EC /* WSTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05507791C400F010027A6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sw;
+				TargetAttributes = {
+					D05507801C400F010027A6EC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D05507991C400F010027A6EC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D05507801C400F010027A6EC;
+					};
+					D05507A41C400F010027A6EC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D05507801C400F010027A6EC;
+					};
+				};
+			};
+			buildConfigurationList = D055077C1C400F010027A6EC /* Build configuration list for PBXProject "WSTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05507781C400F010027A6EC;
+			productRefGroup = D05507821C400F010027A6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05507801C400F010027A6EC /* WSTabBar */,
+				D05507991C400F010027A6EC /* WSTabBarTests */,
+				D05507A41C400F010027A6EC /* WSTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D055077F1C400F010027A6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05507941C400F010027A6EC /* LaunchScreen.storyboard in Resources */,
+				D05507911C400F010027A6EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05507981C400F010027A6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05507A31C400F010027A6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D055077D1C400F010027A6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05507B91C400F870027A6EC /* WSTabBarController.m in Sources */,
+				D05507891C400F010027A6EC /* AppDelegate.m in Sources */,
+				D05507BF1C40106C0027A6EC /* TwoChildViwController.m in Sources */,
+				D05507C81C4010AD0027A6EC /* FiveChildViwController.m in Sources */,
+				D05507BC1C4010510027A6EC /* OneChildViwController.m in Sources */,
+				D05507C21C4010830027A6EC /* ThreeChildViwController.m in Sources */,
+				D05507CB1C4010D00027A6EC /* WSTabBar.m in Sources */,
+				D05507C51C4010990027A6EC /* FourChildViwController.m in Sources */,
+				D05507861C400F010027A6EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05507961C400F010027A6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055079F1C400F010027A6EC /* WSTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05507A11C400F010027A6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05507AA1C400F010027A6EC /* WSTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D055079C1C400F010027A6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05507801C400F010027A6EC /* WSTabBar */;
+			targetProxy = D055079B1C400F010027A6EC /* PBXContainerItemProxy */;
+		};
+		D05507A71C400F010027A6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05507801C400F010027A6EC /* WSTabBar */;
+			targetProxy = D05507A61C400F010027A6EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05507921C400F010027A6EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05507931C400F010027A6EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05507AC1C400F010027A6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D05507AD1C400F010027A6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05507AF1C400F010027A6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.WSTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D05507B01C400F010027A6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.WSTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D05507B21C400F010027A6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.WSTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSTabBar.app/WSTabBar";
+			};
+			name = Debug;
+		};
+		D05507B31C400F010027A6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.WSTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSTabBar.app/WSTabBar";
+			};
+			name = Release;
+		};
+		D05507B51C400F010027A6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.WSTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D05507B61C400F010027A6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ymtest.WSTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D055077C1C400F010027A6EC /* Build configuration list for PBXProject "WSTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05507AC1C400F010027A6EC /* Debug */,
+				D05507AD1C400F010027A6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05507AE1C400F010027A6EC /* Build configuration list for PBXNativeTarget "WSTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05507AF1C400F010027A6EC /* Debug */,
+				D05507B01C400F010027A6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D05507B11C400F010027A6EC /* Build configuration list for PBXNativeTarget "WSTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05507B21C400F010027A6EC /* Debug */,
+				D05507B31C400F010027A6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D05507B41C400F010027A6EC /* Build configuration list for PBXNativeTarget "WSTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05507B51C400F010027A6EC /* Debug */,
+				D05507B61C400F010027A6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05507791C400F010027A6EC /* Project object */;
+}
